@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">即时通讯</string>
+    <string name="loading">加载中</string>
+    <string name="message">消息</string>
+    <string name="picture">图片</string>
+    <string name="finish">完成</string>
+    <string name="short_time_record">录音时间过短</string>
+    <string name="open_camera_fail">相册初始化失败</string>
+    <string name="empty_sdcard">没有SD卡</string>
+    <string name="shoot">拍摄照片</string>
+    <string name="temp_date">2017-01-01</string>
+    <string name="all_folder">所有图片</string>
+    <string name="sheet">张</string>
+    <string name="folder_name">文件名</string>
+    <string name="image_num">图片数量</string>
+    <string name="msg_no_camera">抱歉，没有发现相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+</resources>

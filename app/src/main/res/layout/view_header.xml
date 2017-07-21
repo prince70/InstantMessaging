@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:background="#ff0000ff"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@mipmap/btn_back_normal" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="80dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="标题"
+        android:textColor="#ffffffff"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/fun2"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/header_search"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/fun"
+            android:clickable="true"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/header_search" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fun_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20dp" />
+</RelativeLayout>

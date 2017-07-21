@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toast_color">#4a4b4b</color>
+    <color name="headerColor">#4182CF</color>
+    <color name="emoji_keyboard_bg_light">#f6f5f5</color>
+    <color name="blue1">#81CCFF</color>
+    <color name="background_tab_pressed">#66eeeeee</color>
+    <color name="gray">#f7f6f6</color>
+    <color name="background">#181819</color>
+    <color name="black">#000000</color>
+    <color name="themeColor">#4182CF</color>
+    <color name="text_gray">#747474</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_gray">#FF343535</color>
+    <color name="text_black">#FF333333</color>
+    <color name="separation">#FFDCDCDC</color>
+    <color name="photo_mask">#88000000</color>
+</resources>
